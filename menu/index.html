@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Diplomat-Menu</title>
+	<link rel="shortcut icon" type="icon/ico" href="C:\Users\Acer\Desktop\Bibisara documents\Astana IT university\studies\2 триместр\WEB technologies\retake course\codes\assignment 3/d.ico">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+	<nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+	  <a class="navbar-brand" id="diplomat" href="C:\Users\Acer\Desktop\Bibisara documents\Astana IT university\studies\2 триместр\WEB technologies\retake course\codes\assignment 3/index.html">Diplomat</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    <span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	    <ul class="navbar-nav ml-auto">
+	      <li class="nav-item">
+	        <a class="nav-link" href="C:\Users\Acer\Desktop\Bibisara documents\Astana IT university\studies\2 триместр\WEB technologies\retake course\codes\assignment 3/index.html">Home</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">Menu</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="#">About</a>
+	      </li>
+	      <li class="nav-item">
+	        <a class="nav-link" href="C:\Users\Acer\Desktop\Bibisara documents\Astana IT university\studies\2 триместр\WEB technologies\retake course\codes\assignment 3\reserv/index.html">Reservations</a>
+	      </li>
+	    </ul>
+	  </div>
+	</nav>
+
+	<div>
+		<center>
+			<br>
+			<h1>  Menu <i class="fas fa-utensils"></i></h1>
+			<br>
+		</center>
+	</div>
+
+	<form>
+	<div class="container-fluid">
+
+		<div class="a row">
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1561658953505-IK4EXXTMJ1B83M6R8K9I/download+%284%29.jpeg?format=500w" width="400px">
+
+				<h2>Roasted Cauliflower & Garlic Dip</h2>
+
+				<p>Slow-smoked beef brisket cut into thin slices, pickled okra, wild onions, tomatoes, and black bread. Served with a side salad or fried potatoes.</p>
+
+				<label for="btn0"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">25.00 </span></label>
+
+				<button onclick="order(0)" id="btn0" type="button" value="25" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1561658899958-ABKXTIQDV0D0TM363SNH/download+%283%29.jpeg?format=500w" width="400px">
+				<h2>Broiled Salmon with Spring Onion Risotto</h2>
+
+				<p>Two flapjacks served with molasses and our signature sassafras-infused whipped cream.</p>
+
+				<label for="btn1"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">29.00 </span></label>
+
+				<button onclick="order(1)" id="btn1" type="button" value="29" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1561658674239-MFIX01HEB1XFDSVHLPCF/download+%281%29.jpeg?format=500w" width="400px">
+				<h2>Backyard Cookout</h2>
+
+				<p>Cornmeal and molasses hotcakes served with sweet fennel pork sausage.</p>
+
+				<label for="btn2"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">28.50 </span></label>
+
+				<button onclick="order(2)" id="btn2" type="button" value="28.5" class="btn btn-outline-dark">Order</button>
+			</div>
+			
+		</div>
+		<br>
+
+		<div class="a row">
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1559069872749-ADCYW6CS6QP2AS1CVTFQ/Large+JPG-cucumber+tomato+salad06.jpg?format=500w" width="400px">
+				<h2>Cucumber Tomato Salad</h2>
+
+				<p>Two thick buckwheat cakes served with honey and our signature sassafras-infused whipped cream.</p>
+
+				<label for="btn3"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">17.80 </span></label>
+
+				<button onclick="order(3)" id="btn3" type="button" value="17.8" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1561659013470-OXV1B4ZZPB3D9QQ9NVTT/download+%285%29.jpeg?format=500w" width="400px">
+				<h2>Roasted Beet Wedges with Tzatziki</h2>
+
+				<p>Four small biscuits served with boysenberry and blackberry compote and rosemary lard or apple maple butter.</p>
+
+				<label for="btn4"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">30.10 </span></label>
+
+				<button onclick="order(4)" id="btn4" type="button" value="30.1" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1559068742901-42CHRXMX49G7GSDK3OEY/Large+JPG-blueberry+sour+cream+swirl11.jpg?format=500w" width="400px">
+				<h2>Blueberry Sour Cream Swirl</h2>
+
+				<p>Whole lake trout smoked with oyster sauce. Served with grilled leeks and salsify over a bed of creamed turnips.</p>
+
+				<label for="btn5"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">22.99 </span></label>
+
+				<button onclick="order(5)" id="btn5" type="button" value="22.99" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			
+		</div>
+		<br>
+
+		<div class="a row">
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1559091272326-BEZZ90NA8QTCJ0KWI68S/apple-waffles13-copy.jpg?format=500w" width="400px">
+				<h2>Apple Waffles</h2>
+
+				<p>Thick cuts of roasted wild turkey, wild onions, lettuce, tomato, mayo, and black bread.</p>
+
+				<label for="btn6"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">13.80 </span></label>
+
+				<button onclick="order(6)" id="btn6" type="button" value="13.8" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1559067621256-G5BFL3XWJAPYLUZAW6TU/Large+JPG-bloody+maria+cocktails24.jpg?format=500w" width="400px">
+				<h2>Bloody Maria Cocktails</h2>
+
+				<p>Four trotters pickled in lemon juice, vinegar, salt, hot pepper, onions, and cucumbers.</p>
+
+				<label for="btn7"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">14.50 </span></label>
+
+				<button onclick="order(7)" id="btn7" type="button" value="14.5" class="btn btn-outline-dark">Order</button>
+			</div>
+
+			<div class="col">
+				<img src="https://images.squarespace-cdn.com/content/v1/5ced3ca71bd8b30001701f6b/1559058534484-A2QBLV5B2DN28M78Z0SX/Large+JPG-asian+pear+and+apple+pie19.jpg?format=500w" width="400px">
+				<h2>Asian Pear & Apple Pie</h2>
+
+				<p>Clove-rubbed corned beef and coleslaw between two pieces of cowboy fry bread. Served with a side salad or fried potatoes.</p>
+
+				<label for="btn8"><i class="fas fa-dollar-sign"></i><span style="font-family: cursive;">32.29 </span></label>
+
+				<button onclick="order(8)" id="btn8" type="button" value="32.29" class="btn btn-outline-dark">Order</button>
+			</div>
+			
+		</div>
+		
+	</div>
+	</form>
+	<br><br>
+
+	<script src="index.js" charset="utf-8"></script>
+	<script src="https://kit.fontawesome.com/b2b4b979b5.js" crossorigin="anonymous"></script>
+
+
+</body>
+</html>

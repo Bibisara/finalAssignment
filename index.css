@@ -1,0 +1,53 @@
+body{
+	background-color: #D9BC15;
+}
+#diplomat{
+	color: #E3DD1C;
+	padding-left: 20px;
+}
+.img1{
+	padding-top: 40px;
+	margin-left: 200px;
+}
+#col2{
+	margin-top: 200px;
+	padding-right: 30px;
+	padding-left: 60px;
+}
+#coll1{
+	padding-top: 100px;
+	padding-left: 100px;
+}
+#coll2{
+	margin-top: 150px;
+	margin-right: 50px;
+}
+.link1{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+.footcontainer{
+	margin-left: 100px;
+}
+#aboutcol1{
+	margin-top: 100px;
+	margin-left: 90px;
+}
+#aboutcol2{
+	padding-top: 120px;
+}
+#about{
+	height: 800px;
+}
+ul.a{
+	list-style-type: none;
+}
+.foot{
+	text-decoration: none;
+	color: lightgrey;
+}
